@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp-eta-container
-        image: debasmitadas13/bankapp-eta-app
+        image: debasmitadas13/bankapp-eta-app:29
         ports:
         - containerPort: 8082
 ---
